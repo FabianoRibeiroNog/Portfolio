@@ -5,27 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiro Projeto</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 </head>
 <body>
     <header>
-        <h1>Desfrutando sobre paisagens</h1>
+        <h1>Desfrutando sobre paisagens</h1><br>
         <h2>Escrito por: Gustavo Guanabara</h2>
+        <nav id="alist">
+            <ul>
+                <li><a href="#galeria-montanhas">Montanhas</a></li>
+                <li><a href="#galeria-praias">Montanhas Nevadas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
     </header>
 
     <main>
-        
+        <section id="galeria-montanhas" class="galeria">
+            <h2>Montanhas Rochosas</h2>
+            <div class="imagens-container">
+                <figure>
+                    <img src="imgs/landscape.jpg" alt="Descrição landscape">
+                    <figcaption>Paisagem ao nascer do sol</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="imgs/landscape2.jpg" alt="Descrição landscape2">
+                    <figcaption>Paisagem rochosa</figcaption>
+                 </figure>
+
+                <figure>
+                    <img src="imgs/landscape3.jpg" alt="Descrição landscape3">
+                    <figcaption>Paisagem ao entardecer</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="galeria-praias" class="galeria">
+            <h2>Montanhas Nevadas</h2>
+            <div class="imagens-container">
+                <figure>
+                    <img src="imgs/montanhanevada.jpg" alt="Descrição mn">
+                    <figcaption>Montanhas nevadas à tarde</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="imgs/montanhanevada2.jpg" alt="Descrição mn2">
+                    <figcaption>Visão de montanhas lateral</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="imgs/montanhanevada3.jpg" alt="Descrição mn3">
+                    <figcaption>Montanhas ao tempo nublado</figcaption>
+                </figure>
+                
+            </div>
+        </section>
+
     </main>
 
     <footer>
-        <div class="footer-content">
+        <div id="contato">
             <p>&copy; 2025 Desfrutando sobre paisagens. Todos os direitos reservados.</p>
-            <nav class="footer-nav">
-                <ul>
-                    <li><a href="#Galeria-Montanhas">Galeria</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
+            <p><a href="#">Instagram</a> | <a href="#">Facebook</a></p>
         </div>
     </footer>
 </body>
